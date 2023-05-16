@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Stepper</title>
+</head>
+<body class="h-screen w-full p-10">
+
+    <div class="w-full h-full flex justify-center items-center">
+        <ol class="flex justify-center items-center w-full text-sm font-medium text-center text-gray-500 sm:text-base">
+            <li class="flex md:w-full items-center text-blue-600 sm:after:content-[''] after:w-full after:h-1 after:border-b after:border-slate-800 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10">
+                <span class="flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-slate-800 ">
+                    <svg class="w-6 h-6 mr-1 sm:w-7 sm:h-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"></path>
+                    </svg>
+                    Personal <span class="hidden sm:inline-flex sm:ml-2">Info</span>
+                </span>
+            </li>
+            <li class="flex md:w-full items-center after:content-[''] after:w-full after:h-1 after:border-b after:border-slate-800 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10">
+                <span class="flex items-center after:content-['/'] sm:after:hidden after:mx-2 after:text-slate-800">
+                    <span class="mr-2">2</span>
+                    Account <span class="hidden sm:inline-flex sm:ml-2">Info</span>
+                </span>
+            </li>
+            <li class="flex items-center">
+                <span class="mr-2">3</span>
+                Confirmation
+            </li>
+        </ol>
+    </div>
+    
+</body>
+</html>
